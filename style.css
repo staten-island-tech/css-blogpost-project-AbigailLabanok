@@ -1,0 +1,19 @@
+body {
+  background-color: mediumturquoise;
+  color: crimson;
+  font-size: 25px;
+}
+h1 {
+  color: darkmagenta;
+}
+.main-header {
+  color: palevioletred;
+}
+.main-header {
+  color: darkorchid;
+}
+/* Addresing the parent is less specific, addressing an element is more specific, addresing a class is more specific than an element, and when you have a set of code twice, whichever thing comes last will take place */
+#id {
+  color: salmon;
+}
+/* An id is more specific than a class, no matter where its placed + you should only use an id once, while a class you can use more than once */
