@@ -1,10 +1,20 @@
-.head {
-  background-color: aquamarine;
-  height: 30vh;
-  width: 50vw;
+.parent {
+  border: 5px solid aquamarine;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 300px;
 }
+.child {
+  border: 3px solid salmon;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
 /* Distance between text and border is the padding while distance between the border and the next element is the margin */
 /* margin increases the space in between elements, by using just margin, it adds the px space to all sides - 4:30*/
 /* Addresing the parent is less specific, addressing an element is more specific, addresing a class is more specific than an element, and when you have a set of code twice, whichever thing comes last will take place */
 /* An id is more specific than a class, no matter where its placed + you should only use an id once, while a class you can use more than once */
 /* px=pixels ... vh=height ... vw=width */
+/* stick w/ 2 fonts max per website*/
