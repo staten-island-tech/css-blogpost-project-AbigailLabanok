@@ -1,15 +1,16 @@
-.parent {
-  border: 5px solid aquamarine;
-  height: 500px;
-  width: 500px;
-  position: relative;
-  margin-top: 300px;
+body {
+  background-color: #b2ebf2;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Bitter", serif;
 }
-.child {
-  border: 3px solid salmon;
-  position: absolute;
-  top: 50px;
-  left: 50px;
+.main-header {
+  color: #f44336;
+  font-size: 10vh;
+  text-align: center;
+}
+.topics {
+  color: #ef5350;
+  font-size: 4vh;
 }
 
 /* Distance between text and border is the padding while distance between the border and the next element is the margin */
