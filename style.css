@@ -4,13 +4,33 @@ body {
   font-family: "Bitter", serif;
 }
 .main-header {
-  color: #f44336;
+  color: #b71c1c;
   font-size: 10vh;
   text-align: center;
 }
 .topics {
   color: #ef5350;
   font-size: 4vh;
+}
+.topic-1 {
+  text-align: center;
+  border: solid #b71c1c;
+  width: 30vw;
+  height: 50vh;
+}
+.topic-2 {
+  text-align: center;
+  border: solid #b71c1c;
+  width: 30vw;
+  height: 50vh;
+  margin: 50px auto;
+}
+.topic-3 {
+  text-align: center;
+  border: solid #b71c1c;
+  width: 30vw;
+  height: 50vh;
+  margin: 50px auto ;
 }
 
 /* Distance between text and border is the padding while distance between the border and the next element is the margin */
