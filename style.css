@@ -22,10 +22,15 @@ html {
   border: solid 10px #b71c1c;
   border-radius: 25px;
   width: 40vw;
-  height: 50vh;
+  height: 60vh;
   margin: 50px auto;
   padding: 15px;
   background-color: #fce4ec;
+}
+.text {
+  font-size: 3vh;
+  margin: 10px;
+  font-weight: bold;
 }
 .image {
   width: 34vw;
