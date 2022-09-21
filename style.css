@@ -10,7 +10,7 @@ html {
 }
 .main-header {
   color: #b71c1c;
-  font-size: 12vh;
+  font-size: 11vh;
   text-align: center;
 }
 .topics {
@@ -24,8 +24,49 @@ html {
   width: 40vw;
   height: 50vh;
   margin: 50px auto;
-  padding: 20px;
+  padding: 15px;
   background-color: #fce4ec;
+}
+.image {
+  width: 34vw;
+  border: solid 5px black;
+  border-radius: 15px;
+}
+.val-logo {
+  width: 10vw;
+  border: solid 5px black;
+  border-radius: 15px;
+  position: absolute;
+  top: 500px;
+  left: 170px;
+  transform: rotate(-14deg);
+}
+.viper-pic {
+  width: 17vw;
+  border: solid 5px black;
+  border-radius: 15px;
+  position: absolute;
+  top: 820px;
+  left: 1500px;
+  transform: rotate(5deg);
+}
+.jett-cat {
+  width: 300px;
+  border: solid 5px black;
+  border-radius: 15px;
+  position: absolute;
+  top: 1450px;
+  left: 100px;
+  transform: rotate(-5deg);
+}
+.skins {
+  width: 500px;
+  border: solid 5px black;
+  border-radius: 15px;
+  position: absolute;
+  top: 220px;
+  left: 1370px;
+  transform: rotate(7deg);
 }
 
 /* Distance between text and border is the padding while distance between the border and the next element is the margin */
